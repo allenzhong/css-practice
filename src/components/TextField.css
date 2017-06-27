@@ -1,0 +1,38 @@
+.textfield {
+  position: relative;
+  overflow: visible;
+}
+
+.textfield input {
+  width: 100px;
+}
+
+.textfield input + .callout {
+  visibility: hidden;
+  display: none;
+}
+
+.textfield input:focus + .callout {
+  display: block;
+  width: 100px;
+  padding-left: 0.5em;
+  border-radius: 0.2em;
+  color: white;
+  background: black;
+  visibility: visible;
+  position: absolute;
+  top: 150%;
+  left: 0;
+}
+
+.textfield input + .callout::before {
+  visibility: visible;
+  content: " ";
+  position: absolute;
+  top: -50%;
+  left: 20%;
+  margin-right: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
