@@ -7,7 +7,7 @@ import { linkTo } from '@storybook/addon-links';
 import { Button, Welcome } from '@storybook/react/demo';
 import CssButton from "../components/CssButton";
 import TextField from '../components/TextField';
-
+import CSSPanel from '../components/CSSPanel';
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
@@ -20,3 +20,6 @@ storiesOf('Yes! Button', module)
 
 storiesOf('Text Field', module)
   .add('With Tip', ()=> <TextField />);
+
+storiesOf('CSS Panel', module)
+  .add('Default', ()=> <CSSPanel />);
