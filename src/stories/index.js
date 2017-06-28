@@ -10,7 +10,7 @@ import { defaultCss, cssWithEm, cssWithHSLA, cssWithHSLAGreen, cssWithHSLARed } 
 import TextField, {defaultTextFieldCss} from '../components/TextField';
 import CSSPanel from '../components/CSSPanel';
 
-storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
+// storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Yes! Button', module)
   .add('Default', () => <CssButton style="yes-button" cssString={defaultCss}/>)
