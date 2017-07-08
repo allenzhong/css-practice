@@ -9,7 +9,7 @@ export default class TextField extends Component {
         <div className="textfield">
           <input type='text' placeholder="click to show">
           </input> 
-          <span className="callout">ToolsTip</span>
+          <span className="callout">ToolsTip for this style </span>
         </div>
         <CSSPanel cssString={this.props.cssString} />      
       </div>
