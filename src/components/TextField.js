@@ -23,7 +23,7 @@ export const defaultTextFieldCss = '.textfield {\n\
 }\n\
 \n\
 .textfield input {\n\
-  width: 100px;\n\
+  width: 200px;\n\
 }\n\
 \n\
 .textfield input + .callout {\n\
@@ -37,10 +37,10 @@ export const defaultTextFieldCss = '.textfield {\n\
   padding-left: 0.5em;\n\
   border-radius: 0.2em;\n\
   color: white;\n\
-  background: black;\n\
+  background: green;\n\
   visibility: visible;\n\
   position: absolute;\n\
-  top: 150%;\n\
+  top: 100%;\n\
   left: 0;\n\
 }\n\
 \n\
@@ -48,9 +48,9 @@ export const defaultTextFieldCss = '.textfield {\n\
   visibility: visible;\n\
   content: " ";\n\
   position: absolute;\n\
-  top: -50%;\n\
+  top: -25%;\n\
   left: 20%;\n\
   margin-right: -5px;\n\
   border-width: 5px;\n\
   border-style: solid;\n\
-  border-color: transparent transparent black transparent;\n\}'
+  border-color: transparent transparent green transparent;\n\}'
