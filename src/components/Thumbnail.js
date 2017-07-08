@@ -24,7 +24,6 @@ export const defaultThumbnailCss = '\n\
 *, *:after, *:before {\n\
   box-sizing: border-box;\n\
 }\n\
-\n\
 .thumbnail-container {\n\
   width: 300px;\n\
   margin: 0 auto;\n\
@@ -37,7 +36,6 @@ export const defaultThumbnailCss = '\n\
   background: radial-gradient(ellipse at center, #f5f5f5 0%,#ddd 100%);\n\
   user-select: none;\n\
 }\n\
-\n\
 .thumbnail {\n\
   -webkit-backface-visibility: hidden;\n\
   display: inline-block;\n\
@@ -47,7 +45,6 @@ export const defaultThumbnailCss = '\n\
   background: #000;\n\
   box-shadow: 0 15px 50px rgba(0,0,0,.5);\n\
 }\n\
-\n\
 .thumbnail img {\n\
   display: block;\n\
   max-width: 100%;\n\
