@@ -23,6 +23,5 @@ storiesOf('Yes! Button', module)
 storiesOf('Text Field', module)
   .add('With Tip', ()=> <TextField cssString={defaultTextFieldCss}/>);
 
-
 storiesOf('Thumbnail', module)
-  .add('Bacon', ()=> <Thumbnail cssString={defaultThumbnailCss} />);
+  .add('Bacon With Animation', ()=> <Thumbnail cssString={defaultThumbnailCss} />);
