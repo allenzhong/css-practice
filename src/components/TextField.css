@@ -4,7 +4,12 @@
 }
 
 .textfield input {
-  width: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin: 8px 0;
 }
 
 .textfield input + .callout {
@@ -18,10 +23,10 @@
   padding-left: 0.5em;
   border-radius: 0.2em;
   color: white;
-  background: black;
+  background: green;
   visibility: visible;
   position: absolute;
-  top: 150%;
+  top: 100%;
   left: 0;
 }
 
@@ -29,10 +34,10 @@
   visibility: visible;
   content: " ";
   position: absolute;
-  top: -50%;
+  top: -25%;
   left: 20%;
   margin-right: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: transparent transparent green transparent;
 }
