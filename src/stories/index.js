@@ -9,6 +9,7 @@ import CssButton from "../components/CssButton";
 import { defaultCss, cssWithEm, cssWithHSLA, cssWithHSLAGreen, cssWithHSLARed } from "../components/CssButton"
 import TextField, {defaultTextFieldCss} from '../components/TextField';
 import CSSPanel from '../components/CSSPanel';
+import Thumbnail, {defaultThumbnailCss} from '../components/Thumbnail';
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
@@ -21,3 +22,7 @@ storiesOf('Yes! Button', module)
 
 storiesOf('Text Field', module)
   .add('With Tip', ()=> <TextField cssString={defaultTextFieldCss}/>);
+
+
+storiesOf('Thumbnail', module)
+  .add('Bacon', ()=> <Thumbnail cssString={defaultThumbnailCss} />);
