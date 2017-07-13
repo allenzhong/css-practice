@@ -10,7 +10,7 @@ import { defaultCss, cssWithEm, cssWithHSLA, cssWithHSLAGreen, cssWithHSLARed } 
 import TextField, {defaultTextFieldCss} from '../components/TextField';
 import CSSPanel from '../components/CSSPanel';
 import Thumbnail, {defaultThumbnailCss} from '../components/Thumbnail';
-
+import TranslucentBorder, {translucentBoxCss} from '../components/TranslucentBorder';
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Yes! Button', module)
@@ -25,3 +25,6 @@ storiesOf('Text Field', module)
 
 storiesOf('Thumbnail', module)
   .add('Bacon With Animation', ()=> <Thumbnail cssString={defaultThumbnailCss} />);
+
+storiesOf('Border', module)
+  .add("TranslucentBorder", ()=> <TranslucentBorder cssString={translucentBoxCss}/>)

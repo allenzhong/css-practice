@@ -1,0 +1,16 @@
+div.translucent-border_container {
+  height: 20em;
+  padding: 5em;
+  background: url('http://csssecrets.io/images/stone-art.jpg');
+}
+
+div.translucent-box {
+  border: 10px solid hsla(0, 0%, 100%, 0.5);
+  background: white;
+  background-clip: padding-box;
+
+  max-width: 20em;
+  padding: 2em;
+  margin: 2em auto 0;
+  font: 100%/1.5 sans-serif;
+}
